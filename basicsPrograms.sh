@@ -20,3 +20,7 @@ apt-get install nmap
 #uninstall
 #apt-get remove --purge gedit links
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl https://raw.githubusercontent.com/rjotac/linuxUtilities/master/.vimrc > ~/.vimrc
+
+vim -c 'PluginInstall' -c 'qa!'
+
