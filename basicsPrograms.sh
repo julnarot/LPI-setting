@@ -4,6 +4,8 @@ apt-get update && apt-get upgrade -y
 apt-get dist-upgrade
 apt-get install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev cmake 
 apt-get install default-jre default-jdk
+## it allow build posgres pysco
+apt-get install libpq-dev
 apt-get install python python-dev python-pip
 apt-get install ssh git wget curl
 apt-get install zsh tmux
