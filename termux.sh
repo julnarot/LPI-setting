@@ -1,4 +1,6 @@
+pkg update
 pkg upgrade
+pkg install coreutils
 pkg install build-essential cmake -y
 pkg install tmux zsh -y
 pkg install python -y
