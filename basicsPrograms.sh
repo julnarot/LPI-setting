@@ -7,6 +7,7 @@ apt-get install default-jre default-jdk
 ## it allow build posgres pysco
 apt-get install libpq-dev
 apt-get install python python-dev python-pip
+apt-get install python3.7 python3-dev libpq-dev libpython3.7-dev python3-pip
 apt-get install ssh git wget curl
 apt-get install zsh tmux
 apt-get install virtualbox
@@ -14,6 +15,8 @@ apt-get install autoremove -y
 apt-get remove vim-tiny -y
 apt-get install vim 
 pip install virtualenv
+pip install psycopg2-binary
+pip3 install psycopg2
 #### Multimedia ####
 apt-get install flashplugin-installer vlc
 #### NetWorking ####
