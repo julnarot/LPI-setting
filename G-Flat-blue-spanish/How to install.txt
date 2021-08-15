@@ -1,0 +1,24 @@
+						#############################
+						#						    #
+						# How to install this theme #
+						#						    #
+						#############################
+										     By Felipe
+
+
+STEP 1
+
+
+    Run the install.sh
+
+STEP 2
+
+    Choose the "minimum" theme in BURG (F2 to show the select menu)
+
+(OPTIONAL)
+
+    You can visualize BURG by typing 
+        
+        sudo burg-emu -D
+
+    in your command line input
