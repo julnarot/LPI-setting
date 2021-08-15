@@ -1,13 +1,13 @@
 #!/bin/bash
 # ng generate module
 #echo "holaaaa: "$1;
-ng generate module $1
+ng generate module $1 --routing
 cd $1
 mkdir components
 TPATH=$PWD
 echo "success path.... "$TPATH; 
 #ng generate module $1
-ng generate module $1"-routing" --module=$1 --flat
+#ng generate module $1"-routing" --module=$1 --flat
 ng generate component $1 --flat --inline-template --inline-style --skipTests
 #ng generate component $1"-container" --module=$1".module.ts"  --inline-template --inline-style --skipTests
 echo "routing module created!"
