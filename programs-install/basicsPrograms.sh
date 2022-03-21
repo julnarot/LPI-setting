@@ -34,6 +34,9 @@ apt-get install flashplugin-installer
 #git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 #curl https://raw.githubusercontent.com/rjotac/linuxUtilities/master/.vimrc > ~/.vimrc
 
+
+
+
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -41,4 +44,8 @@ curl https://raw.githubusercontent.com/rjotac/linuxUtilities/master/.vimrc > ~/.
 vim -c 'PluginInstall' -c 'qa!'
 
 #vim -c 'PluginInstall' -c 'qa!'
+
+
+
+
 
