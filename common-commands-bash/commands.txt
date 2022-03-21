@@ -1,2 +1,5 @@
 # check battery
 upower -i $(upower -e | grep '/battery') | grep --color=never -E "state|to\ full|to\ empty|percentage"
+
+## command for recover section of property from panel windows ...
+xprop
