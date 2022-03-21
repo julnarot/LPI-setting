@@ -8,7 +8,7 @@ sudo apt-get install sxhkd
 
 ## setting bspwm
 
-curl -fLo ~/.config/bspwm/bspwmrc --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/bspwm/bspwmrc
+curl -fLo ~/.config/bspwm/bspwmrc --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/bspwm/bspwrc
 chmod +x ~/.config/bspwm/bspwmrc
 
 
@@ -18,8 +18,8 @@ chmod +x ~/.config/sxhkd/sxhkdrc
 
 
 #### bspwm_resize
-curl -fLo ~/.config/sxhkd/scripts/bspwm_resize --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/sxhkd/scripts/bspwm_resize
-chmod +x  ~/.config/sxhkd/scripts/bspwm_resize 
+curl -fLo ~/.config/bspwm/scripts/bspwm_resize --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/bspwm/scripts/bspwm_resize
+chmod +x  ~/.config/bspwm/scripts/bspwm_resize 
 
 
 ## intsallin polibar
