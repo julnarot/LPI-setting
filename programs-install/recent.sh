@@ -59,11 +59,17 @@ sudo ninja -C build install
 
 sudo apt-get install rofi
 
+# setting background
+
+sudo apt-get install feh
+
+feh --bg-fill italy.jpg
 
 
+chmod +x ~/.config/polybar/launch.sh
 
 
-
+sudo apt-get install gnome-terminal
 
 
 
