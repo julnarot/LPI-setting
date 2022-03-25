@@ -3,3 +3,7 @@ upower -i $(upower -e | grep '/battery') | grep --color=never -E "state|to\ full
 
 ## command for recover section of property from panel windows ...
 xprop
+
+pactl set-sink-volume 0 100%
+pactl set-sink-mute 0 toggle
+
