@@ -63,7 +63,8 @@ sudo apt-get install rofi
 
 sudo apt-get install feh
 
-feh --bg-fill italy.jpg
+# defining background
+feh --bg-fill ~/Picture/italy.jpg
 
 
 chmod +x ~/.config/polybar/launch.sh
@@ -71,7 +72,39 @@ chmod +x ~/.config/polybar/launch.sh
 
 sudo apt-get install gnome-terminal
 
+## go to web and https://www.nerdfonts.com/font-downloads dowload nerd-fonts
 
+# copy icons  and execute
+
+fc-cache -v
+chown julnarot:julnarot /julnarot
+chown julnarot:julnarot /root
+
+# fixin error
+chown julnarot:julnarot /root
+chown julnarot:julnarot /root/.cache -R
+chown julnarot:julnarot /root/.local -R
+
+sudo apt-get install bat
+# install lsd from .deb installer
+
+# changing ls by lsd
+alias ll='lsd -lh --group-dirs=first'
+alias la='lsd -a --group-dirs=first'
+alias l='lsd --group-dirs=first'
+alias lla='lsd -lha --group-dirs=first'
+alias ls='lsd --group-dirs=first'
+
+# installing fzf
+
+sudo apt-get install fzf
+# setting  fzf in shorcut  from bz
+
+
+# install ohmytmux from github
+# https://github.com/gpakosz/.tmux
+
+# config tmux
 
 
 cd

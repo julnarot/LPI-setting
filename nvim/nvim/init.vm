@@ -1,0 +1,8 @@
+if &compatible | set nocompatible | endif
+
+runtime viml/options.vim
+runtime viml/plugins.vim
+runtime viml/automations.vim
+runtime viml/commands.vim
+runtime viml/mappings.vim
+
