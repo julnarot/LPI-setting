@@ -22,6 +22,29 @@ curl -fLo ~/.config/bspwm/scripts/bspwm_resize --create-dirs  https://raw.github
 chmod +x  ~/.config/bspwm/scripts/bspwm_resize 
 
 
+
+#### PICOM
+curl -fLo ~/.config/picom/picom.conf --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/picom/picom.conf
+# chmod +x  ~/.config/picom/picom.conf
+
+
+#### bspwm_resize
+curl -fLo ~/.config/polybar/launch.sh --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/polybar/launch.sh
+chmod +x  ~/.config/polybar/lauch.sh
+
+
+#### bspwm_resize
+curl -fLo ~/.config/polybar/config.ini --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/polybar/config.ini
+# chmod +x  ~/.config/polybar/config.ini
+
+
+
+
+
+
+
+
+
 ## intsallin polibar
 
 #sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev libuv1.dev
@@ -67,7 +90,7 @@ sudo ninja -C build install
 feh --bg-fill ~/Picture/italy.jpg
 
 
-chmod +x ~/.config/polybar/launch.sh
+# chmod +x ~/.config/polybar/launch.sh
 
 cd
 
@@ -77,9 +100,11 @@ cd
 
 # copy icons  and execute
 
-fc-cache -v
-chown julnarot:julnarot /julnarot
-chown julnarot:julnarot /root
+# fc-cache -v
+
+
+sudo chown "$(whoami)":"$(whoami)" /julnarot
+sudo chown "$(whoami)":"$(whoami)" /root
 
 # fixin error
 sudo chown "$(whoami)":"$(whoami)" /root
@@ -108,6 +133,13 @@ echo "alias ls='lsd --group-dirs=first'" >> .zshrc
 # config tmux
 
 
+
 cd
+
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+
+
 
 rm -rf jtemp

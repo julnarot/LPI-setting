@@ -1,5 +1,6 @@
 cd ~/
-# mkdir jota
+
+mkdir jtemp
 apt-get update && apt-get upgrade -y
 apt-get dist-upgrade -y
 apt-get install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev cmake -y
@@ -81,6 +82,21 @@ sudo apt-get install fzf -y
 #vim -c 'PluginInstall' -c 'qa!'
 
 
+# Go and download  hack nerd font from https://www.nerdfonts.com/font-downloads
 
+# move Hack.zip to:
+# sudo mv Hack.zip /usr/local/share/fonts/
+
+##  unzip Hack and remove zip file
+# unzip Hack.zip
+
+# Clone repo
+
+# https://github.com/VaughnValle/blue-sky.git
+# cd blue-sky/polybar/fonts
+# sudo cp * /usr/share/fonts/truetype/
+# fc-cache -v
+
+# now can execute zsh for setting
 
 
