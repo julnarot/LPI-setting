@@ -8,7 +8,8 @@ apt-get install default-jre default-jdk
 apt-get install libpq-dev
 apt-get install python python-dev python-pip
 apt-get install python3.7 python3-dev libpq-dev libpython3.7-dev python3-pip
-apt-get install ssh git tig wget curl 
+apt-get install ssh git tig wget curl
+apt-get install git-flow
 apt-get install zsh tmux
 
 apt-get install autoremove -y
