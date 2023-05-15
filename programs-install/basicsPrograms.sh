@@ -20,6 +20,8 @@ pip install psycopg2-binary
 pip3 install psycopg2
 #### Multimedia ####
 apt-get install flashplugin-installer 
+## install helix
+## sudo apt install helix
 
 #### Interface light###
 # apt-get install lxde-core
