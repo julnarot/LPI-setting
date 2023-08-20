@@ -6,11 +6,13 @@ apt-get dist-upgrade -y
 apt-get install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev cmake -y
 apt-get install default-jre default-jdk -y
 ## it allow build posgres pysco
+
 apt-get install libpq-dev -y
 # apt-get install python python-dev python-pip -y
 apt-get install python3.7 python3-dev libpq-dev libpython3.7-dev python3-pip -y
-apt-get install ssh git tig wget curl -y
+apt-get install ssh git tig wget curl git-flow -y
 apt-get install zsh tmux -y
+
 
 apt-get install autoremove -y
 apt-get remove vim-tiny -y
@@ -19,7 +21,10 @@ pip install virtualenv
 pip install psycopg2-binary
 pip3 install psycopg2
 #### Multimedia ####
-apt-get install flashplugin-installer -y
+
+## install helix
+## sudo apt install helix
+# apt-get install flashplugin-installer -y
 
 
 ### bar and keyboard
@@ -55,6 +60,7 @@ sudo apt-get install bat -y
 
 
 sudo apt-get install fzf -y
+
 
 #### Interface light###
 # apt-get install lxde-core
