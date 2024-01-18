@@ -1,0 +1,594 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "sonarlint.rules": {
+        "typescript:S3513": {
+            "level": "on"
+        },
+        "typescript:S4326": {
+            "level": "on"
+        },
+        "typescript:S3973": {
+            "level": "on"
+        },
+        "javascript:S1440": {
+            "level": "on"
+        },
+        "javascript:S1442": {
+            "level": "on"
+        },
+        "javascript:S3513": {
+            "level": "on"
+        },
+        "javascript:S4326": {
+            "level": "on"
+        },
+        "javascript:S4139": {
+            "level": "on"
+        },
+        "javascript:S1535": {
+            "level": "on"
+        },
+        "javascript:S126": {
+            "level": "on"
+        },
+        "javascript:S3533": {
+            "level": "on"
+        },
+        "javascript:S131": {
+            "level": "on"
+        },
+        "javascript:S1821": {
+            "level": "on"
+        },
+        "javascript:S1539": {
+            "level": "on"
+        },
+        "javascript:S2138": {
+            "level": "on"
+        },
+        "javascript:S909": {
+            "level": "on"
+        },
+        "javascript:S3973": {
+            "level": "on"
+        },
+        "javascript:S1105": {
+            "level": "on"
+        },
+        "javascript:S3757": {
+            "level": "on"
+        },
+        "javascript:S3760": {
+            "level": "on"
+        },
+        "javascript:S1528": {
+            "level": "on"
+        },
+        "javascript:S3524": {
+            "level": "on"
+        },
+        "javascript:S2424": {
+            "level": "on"
+        },
+        "javascript:S3525": {
+            "level": "on"
+        },
+        "javascript:S1066": {
+            "level": "on"
+        },
+        "javascript:S139": {
+            "level": "on"
+        },
+        "javascript:S3003": {
+            "level": "on"
+        },
+        "javascript:S134": {
+            "level": "on"
+        },
+        "javascript:S121": {
+            "level": "on"
+        },
+        "javascript:S1541": {
+            "level": "on"
+        },
+        "javascript:S1525": {
+            "level": "on"
+        },
+        "javascript:S3317": {
+            "level": "on"
+        },
+        "javascript:S3514": {
+            "level": "on"
+        },
+        "javascript:S1067": {
+            "level": "on"
+        },
+        "javascript:S1116": {
+            "level": "on"
+        },
+        "javascript:S113": {
+            "level": "on"
+        },
+        "javascript:S104": {
+            "level": "on"
+        },
+        "javascript:S100": {
+            "level": "on"
+        },
+        "javascript:S3523": {
+            "level": "on"
+        },
+        "javascript:S1530": {
+            "level": "on"
+        },
+        "javascript:S138": {
+            "level": "on"
+        },
+        "javascript:S3801": {
+            "level": "on"
+        },
+        "javascript:S881": {
+            "level": "on"
+        },
+        "javascript:S2260": {
+            "level": "on"
+        },
+        "javascript:S103": {
+            "level": "on"
+        },
+        "javascript:S1131": {
+            "level": "on"
+        },
+        "javascript:S1488": {
+            "level": "on"
+        },
+        "javascript:S109": {
+            "level": "on"
+        },
+        "javascript:S3498": {
+            "level": "on"
+        },
+        "javascript:S2428": {
+            "level": "on"
+        },
+        "javascript:S2376": {
+            "level": "on"
+        },
+        "javascript:S1441": {
+            "level": "on"
+        },
+        "javascript:S1110": {
+            "level": "on"
+        },
+        "javascript:S1154": {
+            "level": "on"
+        },
+        "javascript:S3499": {
+            "level": "on"
+        },
+        "javascript:S106": {
+            "level": "on"
+        },
+        "javascript:S122": {
+            "level": "on"
+        },
+        "javascript:S1438": {
+            "level": "on"
+        },
+        "javascript:S1192": {
+            "level": "on"
+        },
+        "javascript:S3402": {
+            "level": "on"
+        },
+        "javascript:S105": {
+            "level": "on"
+        },
+        "javascript:S3786": {
+            "level": "on"
+        },
+        "javascript:S3512": {
+            "level": "on"
+        },
+        "javascript:S2427": {
+            "level": "on"
+        },
+        "javascript:S1774": {
+            "level": "on"
+        },
+        "javascript:S1451": {
+            "level": "on"
+        },
+        "javascript:S3723": {
+            "level": "on"
+        },
+        "javascript:S5867": {
+            "level": "on"
+        },
+        "javascript:S1537": {
+            "level": "on"
+        },
+        "javascript:S3353": {
+            "level": "on"
+        },
+        "javascript:S1172": {
+            "level": "on"
+        },
+        "javascript:S3758": {
+            "level": "on"
+        },
+        "javascript:S117": {
+            "level": "on"
+        },
+        "javascript:S3798": {
+            "level": "on"
+        },
+        "javascript:S1526": {
+            "level": "on"
+        },
+        "javascript:S3827": {
+            "level": "on"
+        },
+        "javascript:S2817": {
+            "level": "on"
+        },
+        "javascript:S2208": {
+            "level": "on"
+        },
+        "typescript:S1440": {
+            "level": "on"
+        },
+        "typescript:S1117": {
+            "level": "on"
+        },
+        "javascript:S1117": {
+            "level": "on"
+        },
+        "typescript:S909": {
+            "level": "on"
+        },
+        "typescript:S4139": {
+            "level": "on"
+        },
+        "typescript:S1535": {
+            "level": "on"
+        },
+        "typescript:S126": {
+            "level": "on"
+        },
+        "typescript:S3533": {
+            "level": "on"
+        },
+        "typescript:S1539": {
+            "level": "on"
+        },
+        "typescript:S131": {
+            "level": "on"
+        },
+        "typescript:S1821": {
+            "level": "on"
+        },
+        "typescript:S4327": {
+            "level": "on"
+        },
+        "typescript:S2138": {
+            "level": "on"
+        },
+        "typescript:S1105": {
+            "level": "on"
+        },
+        "typescript:S1528": {
+            "level": "on"
+        },
+        "typescript:S3524": {
+            "level": "on"
+        },
+        "typescript:S2424": {
+            "level": "on"
+        },
+        "typescript:S3525": {
+            "level": "on"
+        },
+        "typescript:S1066": {
+            "level": "on"
+        },
+        "typescript:S139": {
+            "level": "on"
+        },
+        "typescript:S3003": {
+            "level": "on"
+        },
+        "typescript:S134": {
+            "level": "on"
+        },
+        "typescript:S121": {
+            "level": "on"
+        },
+        "typescript:S1541": {
+            "level": "on"
+        },
+        "typescript:S1525": {
+            "level": "on"
+        },
+        "typescript:S3317": {
+            "level": "on"
+        },
+        "typescript:S4157": {
+            "level": "on"
+        },
+        "typescript:S4328": {
+            "level": "on"
+        },
+        "typescript:S3514": {
+            "level": "on"
+        },
+        "typescript:S1067": {
+            "level": "on"
+        },
+        "typescript:S113": {
+            "level": "on"
+        },
+        "typescript:S104": {
+            "level": "on"
+        },
+        "typescript:S100": {
+            "level": "on"
+        },
+        "typescript:S1530": {
+            "level": "on"
+        },
+        "typescript:S138": {
+            "level": "on"
+        },
+        "typescript:S3801": {
+            "level": "on"
+        },
+        "typescript:S881": {
+            "level": "on"
+        },
+        "typescript:S4023": {
+            "level": "on"
+        },
+        "typescript:S2260": {
+            "level": "on"
+        },
+        "typescript:S103": {
+            "level": "on"
+        },
+        "typescript:S1131": {
+            "level": "on"
+        },
+        "typescript:S135": {
+            "level": "on"
+        },
+        "typescript:S109": {
+            "level": "on"
+        },
+        "typescript:S4136": {
+            "level": "on"
+        },
+        "typescript:S2966": {
+            "level": "on"
+        },
+        "typescript:S3498": {
+            "level": "on"
+        },
+        "typescript:S4798": {
+            "level": "on"
+        },
+        "typescript:S4324": {
+            "level": "on"
+        },
+        "typescript:S3257": {
+            "level": "on"
+        },
+        "typescript:S2933": {
+            "level": "on"
+        },
+        "typescript:S2376": {
+            "level": "on"
+        },
+        "typescript:S1441": {
+            "level": "on"
+        },
+        "typescript:S1110": {
+            "level": "on"
+        },
+        "typescript:S1488": {
+            "level": "on"
+        },
+        "typescript:S1154": {
+            "level": "on"
+        },
+        "typescript:S3499": {
+            "level": "on"
+        },
+        "typescript:S106": {
+            "level": "on"
+        },
+        "typescript:S122": {
+            "level": "on"
+        },
+        "typescript:S1438": {
+            "level": "on"
+        },
+        "typescript:S1192": {
+            "level": "on"
+        },
+        "typescript:S3402": {
+            "level": "on"
+        },
+        "typescript:S105": {
+            "level": "on"
+        },
+        "typescript:S3786": {
+            "level": "on"
+        },
+        "typescript:S3512": {
+            "level": "on"
+        },
+        "typescript:S4204": {
+            "level": "on"
+        },
+        "typescript:S2427": {
+            "level": "on"
+        },
+        "typescript:S1774": {
+            "level": "on"
+        },
+        "typescript:S1451": {
+            "level": "off"
+        },
+        "typescript:S3723": {
+            "level": "on"
+        },
+        "typescript:S1537": {
+            "level": "on"
+        },
+        "typescript:S4137": {
+            "level": "on"
+        },
+        "typescript:S3353": {
+            "level": "on"
+        },
+        "typescript:S4622": {
+            "level": "on"
+        },
+        "typescript:S117": {
+            "level": "on"
+        },
+        "typescript:S1526": {
+            "level": "on"
+        },
+        "typescript:S2817": {
+            "level": "on"
+        },
+        "typescript:S2208": {
+            "level": "on"
+        },
+        "Web:BoldAndItalicTagsCheck": {
+            "level": "on"
+        },
+        "Web:InputWithoutLabelCheck": {
+            "level": "on"
+        },
+        "Web:UnclosedTagCheck": {
+            "level": "on"
+        },
+        "Web:DoubleQuotesCheck": {
+            "level": "on"
+        },
+        "Web:IllegalTagLibsCheck": {
+            "level": "on"
+        },
+        "Web:DynamicJspIncludeCheck": {
+            "level": "on"
+        },
+        "Web:PageWithoutFaviconCheck": {
+            "level": "on"
+        },
+        "Web:ComplexityCheck": {
+            "level": "on"
+        },
+        "Web:FileLengthCheck": {
+            "level": "on"
+        },
+        "Web:WmodeIsWindowCheck": {
+            "level": "on"
+        },
+        "Web:NonConsecutiveHeadingCheck": {
+            "level": "on"
+        },
+        "Web:ImgWithoutWidthOrHeightCheck": {
+            "level": "on"
+        },
+        "Web:LongJavaScriptCheck": {
+            "level": "on"
+        },
+        "Web:UnifiedExpressionCheck": {
+            "level": "on"
+        },
+        "Web:JspScriptletCheck": {
+            "level": "on"
+        },
+        "Web:MaxLineLengthCheck": {
+            "level": "on"
+        },
+        "Web:LinkToNothingCheck": {
+            "level": "on"
+        },
+        "Web:LinksIdenticalTextsDifferentTargetsCheck": {
+            "level": "on"
+        },
+        "Web:MouseEventWithoutKeyboardEquivalentCheck": {
+            "level": "on"
+        },
+        "Web:MultiplePageDirectivesCheck": {
+            "level": "on"
+        },
+        "Web:IllegalTabCheck": {
+            "level": "on"
+        },
+        "Web:InlineStyleCheck": {
+            "level": "on"
+        },
+        "Web:HeaderCheck": {
+            "level": "off"
+        },
+        "Web:S1436": {
+            "level": "on"
+        },
+        "Web:RequiredAttributeCheck": {
+            "level": "on"
+        },
+        "Web:IllegalElementCheck": {
+            "level": "on"
+        },
+        "Web:IllegalNamespaceCheck": {
+            "level": "on"
+        },
+        "Web:S1829": {
+            "level": "on"
+        },
+        "Web:WhiteSpaceAroundCheck": {
+            "level": "on"
+        },
+        "Web:InternationalizationCheck": {
+            "level": "on"
+        },
+        "typescript:S5867": {
+            "level": "on"
+        },
+        "typescript:S1172": {
+            "level": "on"
+        },
+        "css:S5362": {
+            "level": "on"
+        },
+        "css:S4664": {
+            "level": "on"
+        }
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "sonarlint.pathToNodeExecutable": "C:\\\\Program Files\\\\NodeJS\\\\node.exe",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "sonarlint.connectedMode.connections.sonarqube": [],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.singleQuote": true,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.linkedEditing": true,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "remote.autoForwardPortsSource": "hybrid"
+}
