@@ -1,8 +1,8 @@
 ## RECENT CONF
 
 
-sudo apt-get install bspwm
-sudo apt-get install sxhkd
+#sudo apt-get install bspwm
+#sudo apt-get install sxhkd
 
 
 
@@ -22,9 +22,32 @@ curl -fLo ~/.config/bspwm/scripts/bspwm_resize --create-dirs  https://raw.github
 chmod +x  ~/.config/bspwm/scripts/bspwm_resize 
 
 
+
+#### PICOM
+curl -fLo ~/.config/picom/picom.conf --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/picom/picom.conf
+# chmod +x  ~/.config/picom/picom.conf
+
+
+#### bspwm_resize
+curl -fLo ~/.config/polybar/launch.sh --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/polybar/launch.sh
+chmod +x  ~/.config/polybar/lauch.sh
+
+
+#### bspwm_resize
+curl -fLo ~/.config/polybar/config.ini --create-dirs  https://raw.githubusercontent.com/julnarot/LPI-setting/master/polybar/config.ini
+# chmod +x  ~/.config/polybar/config.ini
+
+
+
+
+
+
+
+
+
 ## intsallin polibar
 
-sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev libuv1.dev
+#sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev libuv1.dev
 
 
 ## cloning polibar
@@ -43,9 +66,9 @@ make -j $(nproc)
 
 sudo make install
 
-sudo apt-get update
+#sudo apt-get update
 
-sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
+#sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
 
 cd ~/jtemp
 
@@ -57,47 +80,50 @@ ninja -C build
 sudo ninja -C build install
 
 
-sudo apt-get install rofi
+#sudo apt-get install rofi
 
 # setting background
 
-sudo apt-get install feh
+#sudo apt-get install feh
 
 # defining background
 feh --bg-fill ~/Picture/italy.jpg
 
 
-chmod +x ~/.config/polybar/launch.sh
+# chmod +x ~/.config/polybar/launch.sh
 
+cd
 
-sudo apt-get install gnome-terminal
+#sudo apt-get install gnome-terminal
 
 ## go to web and https://www.nerdfonts.com/font-downloads dowload nerd-fonts
 
 # copy icons  and execute
 
-fc-cache -v
-chown julnarot:julnarot /julnarot
-chown julnarot:julnarot /root
+# fc-cache -v
+
+
+sudo chown "$(whoami)":"$(whoami)" /julnarot
+sudo chown "$(whoami)":"$(whoami)" /root
 
 # fixin error
-chown julnarot:julnarot /root
-chown julnarot:julnarot /root/.cache -R
-chown julnarot:julnarot /root/.local -R
+sudo chown "$(whoami)":"$(whoami)" /root
+sudo chown "$(whoami)":"$(whoami)" /root/.cache -R
+sudo chown "$(whoami)":"$(whoami)" /root/.local -R
 
-sudo apt-get install bat
+#sudo apt-get install bat
 # install lsd from .deb installer
 
 # changing ls by lsd
-alias ll='lsd -lh --group-dirs=first'
-alias la='lsd -a --group-dirs=first'
-alias l='lsd --group-dirs=first'
-alias lla='lsd -lha --group-dirs=first'
-alias ls='lsd --group-dirs=first'
+echo "alias ll='lsd -lh --group-dirs=first'" >> .zshrc
+echo "alias la='lsd -a --group-dirs=first'" >> .zshrc
+echo "alias l='lsd --group-dirs=first'" >> .zshrc
+echo "alias lla='lsd -lha --group-dirs=first'" >> .zshrc
+echo "alias ls='lsd --group-dirs=first'" >> .zshrc
 
 # installing fzf
 
-sudo apt-get install fzf
+#sudo apt-get install fzf
 # setting  fzf in shorcut  from bz
 
 
@@ -107,6 +133,13 @@ sudo apt-get install fzf
 # config tmux
 
 
+
 cd
+
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+
+
 
 rm -rf jtemp
